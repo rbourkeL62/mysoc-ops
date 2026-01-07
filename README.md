@@ -2,6 +2,8 @@
 
 Welcome to **Soc Ops**! 🎉
 
+> **Note:** This repository is a demo project intended for testing and learning purposes; it is not meant for production use.
+
 ## What is Soc Ops?
 
 **Soc Ops** is an engaging Social Bingo game designed for in-person mixers. Connect with others, find people who match the questions, and aim for 5 in a row! Perfect for breaking the ice and sparking conversations!
