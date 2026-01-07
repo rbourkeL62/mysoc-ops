@@ -24,3 +24,8 @@ npm run build
 ```
 
 Deploys automatically to GitHub Pages on push to `main`.
+
+---
+
+## 🌟 Welcome tour
+A short guide is available in [WELCOME.md](WELCOME.md) — it shows quick start, where the source lives, and how to contribute.
