@@ -1,16 +1,28 @@
 # Soc Ops
 
-Social Bingo game for in-person mixers. Find people who match the questions and get 5 in a row!
+Welcome to **Soc Ops**! 🎉
 
-<!-- You can remove this message when updating the readme as part of the workshop -->
-👉 **[Follow the Lab Guide](.lab/GUIDE.md)** for instructions on how to set up and customize the game.
+## What is Soc Ops?
 
+**Soc Ops** is an engaging Social Bingo game designed for in-person mixers. Connect with others, find people who match the questions, and aim for 5 in a row! Perfect for breaking the ice and sparking conversations!
+
+## Why Play?
+
+- **Fun & Interactive**: A unique way to meet new people and learn interesting facts about them.
+- **Customizable**: Tailor the game to fit your event's theme or audience.
+- **Easy to Set Up**: Get started in just a few minutes!
+
+## Getting Started
+
+👉 **[Follow the Lab Guide](.lab/GUIDE.md)** for step-by-step instructions on how to set up and customize the game.
 
 ## Prerequisites
 
 - [Node.js 22](https://nodejs.org/) or higher
 
 ## Run
+
+To start the game, run the following commands:
 
 ```bash
 npm install
@@ -28,4 +40,5 @@ Deploys automatically to GitHub Pages on push to `main`.
 ---
 
 ## 🌟 Welcome tour
+
 A short guide is available in [WELCOME.md](WELCOME.md) — it shows quick start, where the source lives, and how to contribute.
