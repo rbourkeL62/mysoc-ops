@@ -1,0 +1,55 @@
+/* Chalkboard theme helpers */
+:root {
+  --chalkboard-bg: #192c22;
+  --chalk-ink: #F8F8F2;
+  --chalk-green: #c4f1c9;
+  --chalk-yellow: #ffd86b;
+  --chalk-gray: #cbd5c7;
+  --chalk-border: #304b3a;
+  --chalk-faint: #7b8b77;
+  --chalk-text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+}
+
+/* Chalkboard texture helper (use a small PNG or subtle SVG pattern in public/assets) */
+.chalk-board {
+  background-color: var(--chalkboard-bg);
+  background-image: url('/assets/chalk-grain.svg');
+  background-repeat: repeat;
+  background-size: 240px;
+}
+
+.chalk-text {
+  color: var(--chalk-ink);
+  text-shadow: var(--chalk-text-shadow);
+}
+
+/* Apply chalk styles to buttons when theme active */
+:root[data-theme="chalkboard"] button {
+  background: linear-gradient(180deg,#153021,#192c22);
+  border: 1px solid var(--chalk-border);
+  color: var(--chalk-ink);
+}
+
+:root[data-theme="chalkboard"] button.bg-marked {
+  background: var(--chalk-green) !important;
+  color: #132a12 !important;
+}
+
+:root[data-theme="chalkboard"] button.bg-amber-200,
+:root[data-theme="chalkboard"] button.bg-amber-100 {
+  /* keep bingo amber readable */
+  background: var(--chalk-yellow) !important;
+  color: #3a2e00 !important;
+}
+
+/* focus styles */
+:root[data-theme="chalkboard"] button:focus-visible {
+  outline: 3px solid var(--chalk-yellow);
+  outline-offset: 3px;
+}
+
+/* Modal paper */
+.chalk-modal {
+  background: linear-gradient(180deg,#fbf7ef,#fff9ea);
+  border: 2px dashed var(--chalk-border);
+}

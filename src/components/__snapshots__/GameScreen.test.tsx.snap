@@ -1,0 +1,378 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GameScreen visuals > renders with chalkboard theme 1`] = `
+<div>
+  <div
+    class="flex flex-col min-h-full bg-gray-50"
+  >
+    <header
+      class="flex items-center justify-between p-3 bg-white border-b border-gray-200"
+    >
+      <button
+        class="text-gray-500 text-sm px-3 py-1.5 rounded active:bg-gray-100"
+      >
+        ← Back
+      </button>
+      <h1
+        class="font-bold text-gray-900 font-schoolbell"
+      >
+        Soc Ops
+      </h1>
+      <div
+        class="flex items-center"
+      >
+        <button
+          aria-checked="true"
+          aria-label="Toggle Chalkboard theme"
+          class="flex items-center gap-2 px-2 py-1 rounded focus-visible:ring-2 focus-visible:ring-amber-400"
+          role="switch"
+        >
+          <span
+            class="text-sm"
+          >
+            Chalkboard
+          </span>
+          <svg
+            aria-hidden="true"
+            class="text-amber-400"
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="12"
+              rx="2"
+              stroke="currentColor"
+              stroke-width="1.5"
+              width="14"
+              x="3"
+              y="6"
+            />
+            <path
+              d="M7 17l-2 2"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="1.5"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <p
+      class="text-center text-gray-500 text-sm py-2 px-4"
+    >
+      Tap a square when you find someone who matches it.
+    </p>
+    <div
+      class="flex-1 flex items-center justify-center p-3"
+    >
+      <div
+        class="grid grid-cols-5 gap-1 w-full max-w-md mx-auto aspect-square"
+      >
+        <button
+          aria-disabled="false"
+          aria-label="Item 0"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 0
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 1"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 1
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 2"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 2
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 3"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 3
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 4"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 4
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 5"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 5
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 6"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 6
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 7"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 7
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 8"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 8
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 9"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 9
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 10"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 10
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 11"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 11
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 12"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 12
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 13"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 13
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 14"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 14
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 15"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 15
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 16"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 16
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 17"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 17
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 18"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 18
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 19"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 19
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 20"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 20
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 21"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 21
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 22"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 22
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 23"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 23
+          </span>
+        </button>
+        <button
+          aria-disabled="false"
+          aria-label="Item 24"
+          aria-pressed="false"
+          class="relative flex items-center justify-center p-1 text-center border border-gray-300 rounded transition-all duration-150 select-none min-h-[60px] text-xs leading-tight bg-white text-gray-700 active:bg-gray-100 "
+        >
+          <span
+            class="wrap-break-word hyphens-auto"
+          >
+            Item 24
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

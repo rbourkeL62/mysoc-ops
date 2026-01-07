@@ -8,6 +8,18 @@
   --color-bingo: #fbbf24;
 }
 
+@import './styles/chalkboard.css';
+
+/* Chalkboard overrides (applies when data-theme="chalkboard" is set on <html>) */
+:root[data-theme="chalkboard"] {
+  --color-accent: var(--chalk-yellow);
+  --color-accent-light: #f9d56a;
+  --color-marked: var(--chalk-green);
+  --color-marked-border: #7dcf7f;
+  --color-bingo: var(--chalk-yellow);
+  background-color: var(--chalkboard-bg);
+}
+
 html,
 body,
 #root {

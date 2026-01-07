@@ -44,3 +44,6 @@ Deploys automatically to GitHub Pages on push to `main`.
 ## 🌟 Welcome tour
 
 A short guide is available in [WELCOME.md](WELCOME.md) — it shows quick start, where the source lives, and how to contribute.
+
+## 🎨 Chalkboard Theme
+A new optional "Chalkboard Classroom" theme is available. Toggle it in the game header — it uses the **Schoolbell** font, applies chalkboard textures, and persists your choice in `localStorage` under the key `theme`.

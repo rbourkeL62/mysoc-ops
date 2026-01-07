@@ -1,5 +1,6 @@
 import type { BingoSquareData } from '../types';
 import { BingoBoard } from './BingoBoard';
+import { ThemeToggle } from './ThemeToggle';
 
 interface GameScreenProps {
   board: BingoSquareData[];
@@ -26,8 +27,10 @@ export function GameScreen({
         >
           ← Back
         </button>
-        <h1 className="font-bold text-gray-900">Soc Ops</h1>
-        <div className="w-16"></div>
+        <h1 className="font-bold text-gray-900 font-schoolbell">Soc Ops</h1>
+        <div className="flex items-center">
+          <ThemeToggle />
+        </div>
       </header>
 
       {/* Instructions */}
