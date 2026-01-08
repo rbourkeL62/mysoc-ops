@@ -1,0 +1,97 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ChalkHero > renders and matches snapshot 1`] = `
+<div>
+  <div
+    class="flex items-center justify-center min-h-full p-6 bg-gray-50"
+  >
+    <div
+      class="max-w-4xl w-full flex flex-col md:flex-row items-center gap-8"
+    >
+      <div
+        class="w-full md:w-1/2"
+      >
+        <div
+          class="bg-gradient-to-b from-slate-50 to-white rounded-2xl p-8 shadow-lg"
+        >
+          <h1
+            class="text-5xl font-schoolbell chalk-text mb-2"
+          >
+            Be the Chalk Hero!
+          </h1>
+          <p
+            class="text-lg text-muted-foreground mb-6 chalk-text"
+          >
+            Draw your luck on a playful bingo chalkboard.
+          </p>
+          <div
+            class="flex gap-3"
+          >
+            <button
+              aria-label="Start the game"
+              class="chalk-cta px-6 py-3 rounded-lg font-semibold shadow-sm"
+            >
+              Start Class
+            </button>
+            <button
+              aria-controls="howto-panel"
+              aria-expanded="false"
+              class="px-4 py-3 rounded-lg border border-gray-200 bg-white/60"
+              id="howto-toggle"
+            >
+              How to play
+            </button>
+          </div>
+        </div>
+        <section
+          aria-hidden="true"
+          class="mt-4 bg-white rounded-lg p-4 border border-gray-200 transition-all overflow-hidden max-h-0 p-0 border-0"
+          id="howto-panel"
+          role="region"
+        >
+          <div
+            class="p-3"
+          >
+            <h2
+              class="font-semibold text-gray-800 mb-3"
+            >
+              How to play
+            </h2>
+            <ul
+              class="text-left text-gray-600 text-sm space-y-2"
+            >
+              <li>
+                • Pick a card — mark a match when someone fits the description.
+              </li>
+              <li>
+                • Aim for a straight line — shout “Bingo!” to win.
+              </li>
+              <li>
+                • Use the theme toggle to switch to chalkboard vibes.
+              </li>
+              <li>
+                • Press 
+                <kbd
+                  class="rounded px-1 bg-gray-100"
+                >
+                  ?
+                </kbd>
+                 anytime for help.
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div
+        class="hidden md:block md:w-1/2"
+      >
+        <img
+          alt="Chalk hero illustration"
+          class="w-full"
+          src="/assets/chalk-hero.svg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

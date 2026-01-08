@@ -53,3 +53,27 @@
   background: linear-gradient(180deg,#fbf7ef,#fff9ea);
   border: 2px dashed var(--chalk-border);
 }
+
+/* Hero & CTA helpers */
+.chalk-hero {
+  background: var(--chalkboard-bg);
+  color: var(--chalk-ink);
+}
+
+.chalk-cta {
+  background: linear-gradient(180deg,#7dd78b,#57b36b);
+  color: #07240f;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+}
+
+:root[data-theme="chalkboard"] .chalk-cta:focus-visible {
+  outline: 3px solid var(--chalk-yellow);
+  outline-offset: 3px;
+}
+
+/* small responsive helper for collapsed panel */
+@media (max-width: 768px) {
+  #howto-panel {
+    position: relative;
+  }
+}
